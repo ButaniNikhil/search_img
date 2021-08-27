@@ -30,6 +30,7 @@ function App() {
             return(
               <img src={`https://live.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}_m.jpg`}></img>
             )})}
+            
         </div>
         <button onClick={changePhoto}>Show more</button>
     </div>
